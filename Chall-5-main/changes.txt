@@ -1,0 +1,35 @@
+CHECK mo docx, may ss don pag naguluhan ka
+
+
+
+
+
+In Hierarchy, under canvas, under title screen, click text under easy button. Set alignment to center
+Do it again to texts of medium and hard buttons
+
+ 
+in Target script, change "OnMouseEnter" method to "OnMouseDown" method
+ 
+
+In Game Manager Script, under Update Score method, change "score" to $"Score: {score}"
+ 
+
+In Game Manager Script, under Game Over method, restart button set active to true (prev false)
+ 
+
+In Difficulty Button Script, under Set Difficulty method, pass difficulty as an argument
+
+In Game Manager Script, at Start Method, accept an int difficulty parameter 
+Under it, change 5 to difficulty
+ 
+
+In Game Manager Script, create a public variable for timeText
+Under start game method, start the start countdown timer routine
+ 
+In Game Manager Script, create the game timer routine
+   
+
+In Hierarchy, under canvas, duplicate the score text, change its object name to Time text, change its Pos Y from -50 to -100, change the text input from “Score:” to “Time:”
+
+In Hierarchy, Click Game Manager, assign time text to time text variable
+ 
